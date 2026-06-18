@@ -1,49 +1,33 @@
 # Smart Irrigation System
 
-## Project Overview
+## Overview
 
-This project is an Arduino-based Smart Irrigation System designed to automate watering using soil moisture sensing technology.
-
-The system monitors:
-
-* Soil Moisture
-* Temperature
-* Humidity
-
-Based on soil conditions, the water pump is automatically controlled through a relay module.
+Smart Irrigation System is an Arduino-based project that automates irrigation by monitoring soil moisture, temperature, and humidity. The system automatically controls a water pump based on soil conditions, helping reduce water wastage and manual effort.
 
 ## Technologies Used
 
 * Arduino UNO
-* Embedded C / Arduino IDE
+* Embedded C
 * DHT11 Sensor
 * Soil Moisture Sensor
 * Relay Module
-* LCD Display (I2C)
-* Water Pump
+* I2C LCD Display
 
 ## Features
 
 * Automatic irrigation control
-* Real-time temperature monitoring
-* Real-time humidity monitoring
-* Soil status detection (Wet/Dry)
-* LCD display output
-* Water conservation
+* Soil moisture monitoring
+* Temperature and humidity tracking
+* Real-time LCD display
+* Water-efficient irrigation
 
-## Working Principle
+## Working
 
-1. Soil moisture sensor checks soil condition.
-2. DHT11 measures temperature and humidity.
-3. Arduino processes sensor data.
-4. If soil is dry, the relay activates the water pump.
-5. If soil is wet, the pump is switched off.
-6. Sensor readings are displayed on the LCD screen.
+The soil moisture sensor detects whether the soil is wet or dry. Based on the sensor readings, the Arduino activates or deactivates the water pump through a relay module. Temperature and humidity values are displayed on the LCD screen.
 
 ## Future Enhancements
 
-* IoT monitoring using ESP8266
-* Mobile application integration
-* Cloud data storage
-* Machine learning based irrigation scheduling
-
+* IoT integration using ESP8266
+* Mobile app monitoring
+* Cloud-based data storage
+* AI-driven irrigation scheduling

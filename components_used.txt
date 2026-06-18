@@ -1,0 +1,7 @@
+Arduino UNO
+Embedded C / Arduino IDE
+DHT11 Sensor
+Soil Moisture Sensor
+Relay Module
+LCD Display (I2C)
+Water Pump
